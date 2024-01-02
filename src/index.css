@@ -228,14 +228,12 @@ header h2 {
 }
 .main-p {
   font-size: 18px;
-  font-weight: 500;
   line-height: 27px;
   font-weight: 200px;
 }
 
 .main-c{
   font-size: 18px;
-  font-weight: 500;
   line-height: 27px;
   font-weight: 200px;
   margin-right: 20px;
@@ -440,6 +438,18 @@ ul li a {
 @media (max-width: 1300px) {
   .container {
     max-width: 1300px;
+  }
+  .main-c{
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 200px;
+    margin-right: 20px;
+  }
+
+  .main-p {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 200px;
   }
   .raw{
     display: grid;
